@@ -34,7 +34,7 @@ Documentation for the NAO robot at MOD.
 * Select: [Resources > Software > NAO](https://community.ald.softbankrobotics.com/en/resources/software/language/en-gb/robot/nao-2).
 * Scroll to “1 - Upgrading your NAO View archives”
 * Download the NAOQI OS `2.x.x atom system image`
-* Flash the image to a USB stick.
+* Flash the image to a USB stick using the [image flasher app](https://community.ald.softbankrobotics.com/en/resources/software/8-troubleshooting).
 * Plug the USB into the back of NAO’s head.
 * Hold NAO’s chest button in for ~5 seconds until the blue ring lights up.
 * The blue ring should flash quickly, signifying the reset has started.
