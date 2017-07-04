@@ -38,3 +38,13 @@ Documentation for the NAO robot at MOD.
 * Plug the USB into the back of NAO’s head.
 * Hold NAO’s chest button in for ~5 seconds until the blue ring lights up.
 * The blue ring should flash quickly, signifying the reset has started.
+
+## Writing a system image to a USB on MacOS
+
+Open Terminal, insert the USB and enter these commands to write the image. To see progress tap `control + t`.
+
+```Bash
+$ diskutil list
+$ diskutil unmountDisk /dev/disk<disk# from diskutil>
+$ sudo dd bs=1m if=image.opn of=/dev/rdisk<disk# from diskutil>
+```
