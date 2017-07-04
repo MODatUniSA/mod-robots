@@ -30,6 +30,8 @@ Documentation for the NAO robot at MOD.
 
 ## Factory reset
 
+[Instructions](http://doc.aldebaran.com/2-1/software/naoflasher/naoflasher.html#naoflasher-upgrade) from the Aldebaran website.
+
 * Login to the [Community section](https://community.ald.softbankrobotics.com) of SoftbankRobotics.
 * Select: [Resources > Software > NAO](https://community.ald.softbankrobotics.com/en/resources/software/language/en-gb/robot/nao-2).
 * Scroll to “1 - Upgrading your NAO View archives”
