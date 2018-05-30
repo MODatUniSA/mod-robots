@@ -4,7 +4,8 @@ A repository for documentation and instructions for connecting to, updated or fa
 
 * [NAO](nao)
 * Hexa
-* Cozmo 
+* Cozmo
+* [Double 2](double-2)
 
 ## Help
 
