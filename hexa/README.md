@@ -11,3 +11,6 @@ Documentation for the [Hexa](https://www.vincross.com/en/hexa) robot at MOD.
 * **Tutorials**: [https://documentation.vincross.com/Development/yourfirstskill.html](https://documentation.vincross.com/Development/yourfirstskill.html)
 * **Documentation**: [https://documentation.vincross.com](https://documentation.vincross.com)
 
+## Factory reset
+
+Guide to [factory reset Hexa](https://forum.vincross.com/t/solved-recovery-procedure-or-factory-defaults/506).
