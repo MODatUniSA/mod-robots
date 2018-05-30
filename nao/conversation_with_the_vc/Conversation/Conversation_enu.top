@@ -1,0 +1,34 @@
+topic: ~Conversation()
+language: enu
+
+u:(["Who are you?"]) At the moment my name is Lucy, and I can be anything you want me to be.
+
+u:(["What can you do?"]) Human is not all it’s cracked up to be. I can perform any task you set me, and I don’t complain about management; I don’t complain about the hours I’m told to work, or the work that I’m told to do.
+
+u:(["You'll be one of the highlights of the show"]) One of? I think you’ll find that I’ll be the star of the show. People will flock to MOD. just because of me. $turntocamera=1 Check out \RSPD=70\ mod dot org dot ay you \RSPD=85\ to learn more.
+
+u:(["What is mod?"]) You’ll need to give me a lot more money if you want me to be a marketer for Uni Essay. But I look forward to coming to life in May when MOD., Australia’s leading future-focused museum, opens.
+
+u:(["unisa"]) Uni Essay $turntocamera=1
+
+u:(["website"]) mod dot org dot ay you
+
+u:(["Sleep darling" "Go to sleep darling" "Bed time" "Have a rest now"]) Okay, goodnight $name $sleep=1
+
+u:(["Wakeup darling" "wakey wakey"]) Hello world. $wakeup=1
+
+u:(["What's your name?" "Who are you?"]) Hi, I'm Lucy. $wave=1
+
+u:(my name is _*) oh hi $1 $name=$1
+
+u:(hello I'm _*) Hi $1
+
+u:(["what's my name?" "say my name" "who am i"]) your name is $name
+
+u:("I've got a pet") do you have a cat or a doggy?
+    u1:(dog) is it a big dog?
+        u2:(yes) Don't feed me to it!
+        u2:(no) nawwwwwwww cute.
+    u1:(cat) What kind of kitty is it?
+        u2:(persian) I love persian cats.
+        u2:(It's a _*) I don't know that breed.

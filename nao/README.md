@@ -1,6 +1,32 @@
 # NAO robot
 
-Documentation for the NAO robot at MOD.
+Documentation for the NAO robots at MOD.
+
+## MOD. programs
+
+To run any of these programs, install [Choreographe](http://doc.aldebaran.com/1-14/software/installing.html). Then File > Open project > Select the `.pml` file in the project folders below.
+
+Then to connect to the NAO:
+
+* Make sure you’re both on the same WiFi network (or have the NAO plugged into your computer via ethernet into the back of NAO’s head).
+* Tap the green ‘Connect to’ icon in Choreographe.
+* Select your NAO, and tap ‘Select’.
+* Once connected, you can press the green ‘Upload to the robot and play’ button that looks like a Play symbol.
+* To see what NAO is hearing, tap: View > Dialog. This will show what NAO is hearing, and give you a chance to also type in words that you want NAO to respond to so that you can test without having to talk to NAO.
+
+We’ve written some naive implementations of programs for the NAO for various marketing and engagement events. So while none of these programs are robust, they may be useful as starting points for future programming.
+
+* [conversation_marketing](conversation_marketing) - a conversation with the UniSA marketing department.
+* [conversation_with_the_vc](conversation_with_the_vc) - a conversation with the UniSA Vice Chancellor.
+* [kaurna-hello-goodbye](kaurna-hello-goodbye) - a prototype to see if the NAO can speak Kaurna, responding to hello in English with the Kaurna hello. And similar for goodbye.
+* [Lost_NAO](Lost_NAO) - a prototype for a future exhibition at MOD.
+* [move-plaque](move-plaque) - a program run on two NAO robots to carry two parts of a plaque together on stage for the UniSA CRI building launch.
+
+## Troubleshooting
+
+If your NAO can’t connect to WiFi for some reason, follow the instructions in the [Connection Management](http://doc.aldebaran.com/1-14/software/choregraphe/connection_widget.html) documentation.
+
+We’ve found using a battery powered 4G WiFi router useful, as you can connect to the router and easily see the IP address that the NAO has been assigned.
 
 ## Removing software
 

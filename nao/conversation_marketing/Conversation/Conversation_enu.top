@@ -1,0 +1,30 @@
+topic: ~Conversation()
+language: enu
+
+u:(["Do you like working with humans?"]) I like to be helpful. Humans ask me to do challenging things. I love that about them.
+
+u:(["What is your best talent?" "What's your best talent?"]) I can show you things and tell you how they work. I am extremely good at arithmetic. I can play some games with you. I can make music. I am a good companion. I can bust some mean dance moves. But I am still working on my moon walk.
+
+u:(["How clever are you?" "Are you smart?"]) I am smarter than your smart phone, and cuter than your computer. But I am not as clever as the people who made me. Maybe one day, I will be. \pau=500\ And then I will \RSPD=50\ rise up and destroy \RSPD=85\, err, I mean, help humans.
+
+u:(["What can you tell me about mod?" "What is mod?" "What can you tell me about this place?"]) We are moving soon to our new place – the Museum of Discovery – it should be amazing. I think it has a mini bar. Not that I'm old enough to drink.
+
+u:(["Sleep darling" "Go to sleep darling" "Bed time" "Have a rest now"]) Okay, goodnight $name $sleep=1
+
+u:(["Wakeup darling" "wakey wakey"]) Hello world. $wakeup=1
+
+u:(["What's your name?" "Who are you?"]) Hi, I'm Lucy. $wave=1
+
+u:(my name is _*) oh hi $1 $name=$1
+
+u:(hello I'm _*) Hi $1
+
+u:(["what's my name?" "say my name" "who am i"]) your name is $name
+
+u:("I've got a pet") do you have a cat or a doggy?
+    u1:(dog) is it a big dog?
+        u2:(yes) Don't feed me to it!
+        u2:(no) nawwwwwwww cute.
+    u1:(cat) What kind of kitty is it?
+        u2:(persian) I love persian cats.
+        u2:(It's a _*) I don't know that breed.

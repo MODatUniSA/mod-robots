@@ -1,0 +1,6 @@
+topic: ~are-you-my-mummy()
+language: enu
+
+u:(["no" "no darling" "no I'm not"]) You're not? Have you seen my mum? $noDarling=1
+
+u:(["yes" "yes darling" "yes I am"]) Hi mum $yesDarling=1
