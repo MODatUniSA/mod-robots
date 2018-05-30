@@ -3,7 +3,7 @@
 A repository for documentation and instructions for connecting to, updated or factory resetting the robots at MOD.
 
 * [NAO](nao)
-* Hexa
+* [Hexa](hexa)
 * Cozmo
 * [Double 2](double-2)
 
