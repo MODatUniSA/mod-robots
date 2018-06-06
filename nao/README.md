@@ -1,6 +1,6 @@
 # NAO robot
 
-Documentation for the NAO robots at MOD.
+Documentation for the NAO robots at MOD. To get started, follow the official [NAO documentation online](http://doc.aldebaran.com/1-14/index.html).
 
 ## MOD. programs
 
