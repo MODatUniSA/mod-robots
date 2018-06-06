@@ -21,6 +21,7 @@ We’ve written some naive implementations of programs for the NAO for various m
 * [kaurna-hello-goodbye](kaurna-hello-goodbye) - a prototype to see if the NAO can speak Kaurna, responding to hello in English with the Kaurna hello. And similar for goodbye.
 * [Lost_NAO](Lost_NAO) - a prototype for a future exhibition at MOD.
 * [move-plaque](move-plaque) - a program run on two NAO robots to carry two parts of a plaque together on stage for the UniSA CRI building launch.
+* [handout-maps](handout-maps) - a program to get NAO to handout maps for MOD. Tap her head for her to grip a map, say ‘thanks’ or ‘thank you’ and she’ll let it go.
 
 ## Troubleshooting
 

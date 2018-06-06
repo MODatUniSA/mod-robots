@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package version="0.0.1" uuid="handout-maps-6a19f1">
+ <names>
+  <name lang="en_US">handout-maps</name>
+ </names>
+ <descriptions>
+  <description lang="en_US">NAO hands out a map to visitors at MOD.</description>
+ </descriptions>
+ <supportedLanguages>
+  <language>en_US</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="maps">
+   <nature>interactive</nature>
+   <names>
+    <name lang="en_US">Handout Maps</name>
+   </names>
+   <descriptions>
+    <description lang="en_US">NAO hands out maps to visitors at MOD.</description>
+   </descriptions>
+   <tags>
+    <tag lang="en_US">maps</tag>
+   </tags>
+   <triggerSentences>
+    <sentence lang="en_US">maps</sentence>
+    <sentence lang="en_US">handout maps</sentence>
+   </triggerSentences>
+   <loadingResponses>
+    <sentence lang="en_US">Loading handout maps</sentence>
+   </loadingResponses>
+   <autonomous>
+    <condition purpose="launchTrigger"><![CDATA[('Launchpad/NumPeopleZone1' >= 1) ~ 3]]></condition>
+   </autonomous>
+   <permissions>
+    <canRunOnPod/>
+    <canStandUp/>
+   </permissions>
+  </behaviorContent>
+ </contents>
+ <requirements>
+  <robotRequirement model="NAO"/>
+ </requirements>
+</package>
